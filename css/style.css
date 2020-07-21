@@ -146,7 +146,7 @@ nav {
    padding: 71px 0px 65px 0px;
 }
 
-.reason .reason_btn {
+.lable {
    display: block;
    margin: 0px auto;
    width: 112px;
@@ -160,14 +160,7 @@ nav {
    text-transform: uppercase;
 }
 
-.reason .reason_block {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 35px;
-}
-
-.reason .reason_header {
+.title {
    margin: 38px 0px 0px 0px;
    text-align: center;
    color: #222222;
@@ -176,23 +169,30 @@ nav {
    text-transform: uppercase;
 }
 
-.reason_block .reason_descr .reason_subtitle {
+.reason .reason_block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 35px;
+}
+
+.reason .reason_block .reason_descr .reason_subtitle {
    color: #1eacc7;
    font-size: 17px;
    font-weight: 400;
 }
 
-.reason_block .reason_descr {
+.reason .reason_block .reason_descr {
    width: 343px;
 }
-.reason_block .reason_descr .reason_text {
+.reason .reason_block .reason_descr .reason_text {
    color: #202020;
    font-size: 15px;
    font-weight: 300;
    line-height: 21px;
 }
 
-.reason_block .reason_round {
+.reason .reason_block .reason_round {
    display: flex;
    justify-content: center;
    align-items: center;
