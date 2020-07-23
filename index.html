@@ -28,24 +28,31 @@
                <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
             </ul>
          </div>
+         <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
       </nav>
       <div class="subheader">
          <div class="container">
             <div class="row">
-               <div class="col-md-4 offset-md-1">
+               <div class="col-6 col-md-4 offset-md-1">
                   <a href="#" class="subheader_logo"><img src="/icons/logo.png" alt="logo"></a>
                   <div class="subheader_official">Официальный партнер Uber в Москве</div>
                </div>
                <p></p>
-               <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+               <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                   <div class="subheader_call">Звоните нам ежедневно</div>
                   <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
                </div>
-               <div class="col-md-3 ">
+               <div class="col-6 col-md-3 ">
+                  <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
                   <button class="subheader_btn">заказать звонок</button>
                </div>
             </div>
          </div>
+
       </div>
    </header>
 
@@ -206,37 +213,37 @@
          <div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный
             телефон</div>
          <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                <div class="mobile_item mobile_item_1">
                   <div class="mobile_item_subtitle">оформление заказа одним касанием</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                <div class="mobile_item mobile_item_2">
                   <div class="mobile_item_subtitle">надежная подача</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                <div class="mobile_item mobile_item_3">
                   <div class="mobile_item_subtitle">прозрачные цены</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                <div class="mobile_item mobile_item_4">
                   <div class="mobile_item_subtitle">безналичная оплата</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                <div class="mobile_item mobile_item_5">
                   <div class="mobile_item_subtitle">обратная связь</div>
                   <div class="mobile_item_plus"></div>
                </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                <div class="mobile_item mobile_item_6">
                   <div class="mobile_item_subtitle">разделить
                      стоимость поездки</div>
@@ -250,9 +257,10 @@
    <section class="choice">
       <div class="container">
          <div class="black"></div>
-         <div class="label label_white">Возможности</div>
-         <div class="title title_white">Выбор - отличная штука!</div>
-         <div class="subtitle subtitle_white">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
+         <div class="label label_white ">Возможности</div>
+         <div class="title title_white hidden-320">Выбор - отличная штука!</div>
+         <div class="subtitle subtitle_white hidden-320">Закажите автомобиль, который подходит вам по стилю и бюджету
+         </div>
       </div>
       <img src="/img/choice/1.png" alt="logo" class="choice_img" />
       <div class="choice_descr">
@@ -324,12 +332,12 @@
       </div>
    </section>
 
-   <section class="cities">
+   <section class="world">
       <div class="container">
          <div class="label label_white">Города</div>
          <div class="title title_white">По всему миру</div>
          <div class="subtitle subtitle_white"">Мы в вашем городе и по всему миру</div>
-         <a href=" #" class="cities_link">посмотреть все города</a>
+         <a href=" #" class="world_link">посмотреть все города</a>
          </div>
    </section>
 
@@ -371,14 +379,24 @@
          </div>
          <div>
             <div class="footer_mobile">
-               <a href="#">
-                  <img src="/icons/store_icons.png" alt="App Store">
+               <a href="#" class="footer_mobile_link">
+                  <i class="fab fa-app-store-ios"></i>
+                  <span class="footer_mobile_descr">App store</span>
+               </a>
+
+               <a href="#" class="footer_mobile_link">
+                  <i class="fab fa-google-play"></i>
+                  <span class="footer_mobile_descr">Google play</span>
+               </a>
+               <a href="#" class="footer_mobile_link">
+                  <i class="fab fa-windows"></i>
+                  <span class="footer_mobile_descr">Widows store</span>
                </a>
             </div>
          </div>
       </div>
    </footer>
-
+   <script src="/js/script.js"></script>
 </body>
 
 

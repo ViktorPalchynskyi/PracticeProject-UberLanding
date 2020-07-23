@@ -11,6 +11,8 @@ nav
    background-color: #212121
    z-index: 5
 
+.humburger
+   display: none
 
 
 .menu
@@ -84,6 +86,8 @@ nav
       font-weight: 400
       text-transform: uppercase
       @include btn_hover
+
+
 
 .promo
    min-height: 800px
@@ -352,7 +356,7 @@ nav
                height: 20px
                background: url('../icons/requirement/red.png')center center/cover no-repeat
       
-.cities
+.world
    min-height: 717px
    padding: 49px 0px;
    // background-color: #080816
@@ -440,5 +444,27 @@ footer
          text-align: center
 
    &_mobile
+      width: 360px
+      display: flex
+      justify-content: space-between
+     
+      &_link
+         padding: 0px 0px 0px 5px;
+         display: flex
+         justify-content: start
+         align-items: center
+         margin: 0 7px
+         width: 120px
+         height: 27px
+         background-color: #070716
+         border-radius: 4px
+         i
+            color: #fff
+      &_descr
+         color: #fff
+         font-size: 12px 
+         margin: 0px 0px 0px 5px;
     
 
+.xs-visible 
+   display: none
